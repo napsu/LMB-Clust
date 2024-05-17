@@ -9,7 +9,7 @@ LMB-Clust is a nonsmooth optimization (NSO) based clustering algorithm for solvi
 * lmbmclust.f95         
   - Building plock between Python and clustering software.
 * initlmbmclust.f95  
-  - parameters for clustering and LMBM. Includes modules:
+  - Parameters for clustering and LMBM. Includes modules:
     + initclust - Initialization of parameters for clustering.
     + initlmbm - Initialization of LMBM.
 * lmbmclusteringmod.f95     
