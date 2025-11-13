@@ -188,7 +188,7 @@ CONTAINS
         IF (tolf  <= zero) tolf  = 1.0E-08_prec    ! Tolerance for change of function values.
         IF (tolf2 == zero) tolf2 = 1.0E+04_prec    ! Second tolerance for change of function values.
         IF (tolb  == zero) tolb  = -large + small  ! Tolerance for the function value.
-        IF (tolg  <= zero) tolg  = 1.0E-05_prec    ! Tolerance for the termination criterion.
+        IF (tolg  <= zero) tolg2  = 1.0E-05_prec   ! Tolerance for the termination criterion.
         IF (tolg2  <= zero) tolg  = 1.0E-03_prec   ! Tolerance for the second termination criterion.
         IF (xmax  <= zero) xmax  = 1.5_prec        ! Maximum stepsize.
         IF (eta   <  zero) eta   = half            ! Distance measure parameter

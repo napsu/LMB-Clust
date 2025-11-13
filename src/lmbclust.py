@@ -61,10 +61,10 @@ outfile1 = 'indices.txt'       # Result file with function values and validity i
 nclust = 25
     
 # Give the number of records in data
-nrec = 13910
+nrec = 245057
     
 # Give the number of features in data
-nfea = 128
+nfea = 3
     
 # Select the maximum CPU time (in sec)
 tlimit = 72000.0 
